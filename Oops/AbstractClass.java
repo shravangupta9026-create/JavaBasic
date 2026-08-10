@@ -30,5 +30,6 @@ public class AbstractClass {
         d.eat();   // Parent ka method
 
     }
+ 
     
 }
