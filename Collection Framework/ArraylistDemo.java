@@ -14,13 +14,17 @@ public class ArraylistDemo {
         System.out.println(list); // complete list print krne k liye
         System.out.println(list.get(1)); // index 1 ka element print karne k liye
 
-        list.set(1, 5);
+        list.set(1, 5);  // index 1 ko replace kr k 5 kr do
 
-        list.remove(0);
+        list.remove(0);   // index 0 element remove
 
-        System.out.println(list.size());
-        System.out.println(list.contains(30));
+        System.out.println(list.size());  // total element count 
+        System.out.println(list.contains(30));  // 30 prsent hai? -true
 
-        System.out.println(list.isEmpty());
-    } // <-- Ye closing bracket add karein
+     
+        System.out.println(list.isEmpty());  // list empty hai to? - false
+
+
+    }    // <-- Ye closing bracket add karein
+    
 }
