@@ -1,8 +1,9 @@
+/* 
 import java.util.*;
 public class arrayListquestion {
     public static void main(String[] args) {
      
-        /* 
+
         ArrayList<String> names = new ArrayList();
         names.add("Kalash");
         names.add("Rohit");
@@ -17,7 +18,7 @@ public class arrayListquestion {
         // System.out.println(names);
         // System.out.println(names.size());
 
-        */
+    
        ArrayList<Integer> list = new ArrayList<>();
        list.add(1);
        list.add(2);
@@ -41,4 +42,32 @@ public class arrayListquestion {
 
     }
     
+}
+   */
+
+import java.util.*;
+public class arrayListquestion {
+
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("shravan");
+        names.add("Rohit");
+        names.add("kittu");
+        names.add("sarvesh");
+        names.add("shravan");
+        names.add("tushar");
+        System.out.println(names);
+        // System.out.println(names.size());
+        // System.out.println(names.get(3));
+        System.out.println(names.contains("shravan"));
+        System.out.println(names.contains(8));
+
+        // names.remove(5);
+        // System.out.println(names);
+
+        // names.set(5, "Aditya");
+        // System.out.println(names);
+       
+
+    }
 }
