@@ -20,7 +20,8 @@ class BankAccount {
     int account;
     
 
-    BankAccount(){
+   void BankAccount(){
+    System.out.println("BankAccount for user "+ name);
 }
 
 // Parametrized constructor
