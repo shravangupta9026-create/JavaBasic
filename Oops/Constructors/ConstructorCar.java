@@ -20,7 +20,8 @@ class Car {
     int carprice;
     double capacity;
 
-    Car (){
+  void Car (){
+    System.out.println("One day I will own this Car "+ carname);
 
 
 }
